@@ -4,7 +4,7 @@ import './imageContainer.css'
 const ImageContainer = ({image, title, author}) => {
   return (
     <div className='ImageContainer'  >
-        <img src={image}  />
+        <img src={image} alt={title} />
         <div className= 'footerImage'>
         <h3>{title}</h3>
         <p>{author}</p>
